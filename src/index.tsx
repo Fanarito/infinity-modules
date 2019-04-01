@@ -1,23 +1,9 @@
-/**
- * @class ExampleComponent
- */
+import Modal from "./Modal/Modal";
+import Button from "./Button/Button";
+import Carousel from "./Carousel/Carousel";
+import Row from "./Row/Row";
+import Col from "./Col/Col";
+import DatePicker from "./DatePicker/DatePicker";
+import CartoonNetworkSpinner from "./CartoonNetworkSpinner/CartoonNetworkSpinner";
 
-import * as React from 'react'
-
-import styles from './styles.css'
-
-export type Props = { text: string }
-
-export default class ExampleComponent extends React.Component<Props> {
-  render() {
-    const {
-      text
-    } = this.props
-
-    return (
-      <div className={styles.test}>
-        Example Component: {text}
-      </div>
-    )
-  }
-}
+export { Modal, Button, Carousel, Row, Col, DatePicker, CartoonNetworkSpinner };

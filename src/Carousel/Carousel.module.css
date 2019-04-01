@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.pager {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: stretch;
+  transition: background 200ms ease-in-out;
+}
+
+.pager:hover {
+  background-color: #b8c2cc;
+}
+
+.image {
+  flex: 1;
+  object-fit: contain;
+}
+
+.small {
+  height: 200px;
+}
+
+.medium {
+  height: 400px;
+}
+
+.large {
+  height: 600px;
+}

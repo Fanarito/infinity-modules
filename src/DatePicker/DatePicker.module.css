@@ -1,0 +1,60 @@
+.card {
+  display: flex;
+  flex-flow: column;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+  border: 1px solid #dae1e7;
+  width: min-content;
+}
+
+.td {
+  padding: 0.5rem;
+  text-align: center;
+  cursor: pointer;
+  transition: background 200ms ease-in-out;
+}
+
+.td:hover {
+  background-color: #b8c2cc;
+}
+
+.selected {
+  background-color: #3490dc;
+  color: white;
+}
+
+.trTH > th {
+  width: 2em;
+  text-align: center;
+}
+
+.month {
+  display: flex;
+  padding-bottom: 1rem;
+  align-items: center;
+  padding: 1rem;
+}
+
+.monthDisplay {
+  flex: 1;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.pager {
+  height: 32px;
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 200ms ease-in-out;
+}
+
+.pager:hover {
+  background-color: #b8c2cc;
+}
+
+.selectedDate {
+  padding: 1rem;
+  border-top: 1px solid #dae1e7;
+}
